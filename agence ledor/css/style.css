@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #eee;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1.3rem;
+}
+/********************************************première partie**********************/
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+header li {
+  list-style: none;
+}
+header li a {
+  padding: 0 20px 0 20px;
+  color: #fff;
+}
+.vp-logo {
+  font-family: "Liu Jian Mao Cao", cursive;
+  color: #fff;
+  padding: 20px;
+}
+.vp-logo i {
+  color: #f1c40f;
+}
+.vp-logo a {
+  color: #fff;
+  margin-left: 10px;
+}
+/******************************************2partie****************************************/
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/frame.jpg) center center/cover;
+}
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: #fff;
+}
+strong {
+  color: #f1c40f;
+  font-weight: 400;
+}
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+/***************************3partie********************************/
+#offer{ 
+ padding: 10rem 1rem;
+}
+.container{
+  display: block;
+  max-width: 1200px; 
+  margin: auto;
+}
+.offer-list{  
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.offer-elem{
+  border: 1px solid #ddd;
+  background: #fff;
+  margin: 1rem;
+  flex: 1;
+}
+.offer-elem-img{ 
+  width: 100%;
+}
+.offer-elem-text{
+ padding: 2rem;
+ text-align: center;
+}
+.offer-separator{
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #333;
+}
+/************************4partie**********************************/
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+#who{
+  display: flex;
+  flex-flow: row nowrap;
+  min-width: 600px;
+}
+.who-content-img{
+  flex: 1;
+}
+.who-content-img img{
+  width: 100%;
+  height: 100%;
+}
+.who-content-text{
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.who-content-text h2{
+  margin-bottom: 2rem;
+}
+.who-content-text p{
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+/*********************************5partie************************/
+em{
+  color: #555;
+  
+}
+.testimonials{
+  padding: 5rem 1rem;
+}
+.testimonials-content{
+  display: flex;
+  flex-direction: column;
+}
+.testimonials-elem{
+   flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+.testimonials-elem-text{
+  padding: 0.2rem;
+  margin: 0px 20px;
+  text-align: justify;
+}
+.testimonials-elem-text p i{
+  margin: 0.2rem;
+
+}
+.testimonials-elem-profil p{
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.testimonials-elem-profil img{
+  width: 50px;
+  border-radius: 50px;
+  margin-bottom: 00.5rem;
+
+}
+/***********************partie final***********************/
+
+
+#contact{
+  padding: 10rem 1rem 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+input{
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #fff;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+button{
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #f1c40f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
+
+/********************footer**************************/
+footer{
+  background: #444;
+  padding: 5rem 1rem;
+  color: white;
+  text-align: center;
+
+}
+
+footer p{
+  margin-bottom: 0;
+}
